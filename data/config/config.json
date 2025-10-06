@@ -1,0 +1,13 @@
+{
+    "app": {
+        "app_title": "Data Cleaner",
+        "app_version": "1.4.13"
+    },
+
+    "cleaning": {
+        "drop_na": true,
+        "drop_duplicate": true,
+        "handle_outliers": true,
+        "data_type_correlation": true
+        }
+}

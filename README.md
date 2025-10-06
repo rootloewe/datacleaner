@@ -12,7 +12,7 @@ Stelle sicher, dass Python 3 und pandas installiert sind:
 !pip install pandas
 
 
-Methoden
+## Methoden
 -------
 load_data(filepath: str) -> pd.DataFrame
     Lädt CSV-Daten.
@@ -25,6 +25,9 @@ Data_type_correction(self) -> None
 save_data(df: pd.DataFrame, filepath: str) -> None
     Speichert Daten in eine CSV-Datei.
 """
+
+## Hinweis
+Die Adressen in der my_data.csv wurden mit der Python Bibliothek faker erstellt. Damit sind Rückschlüsse auf Personen unmöglich.
 
 ## Lizenz
 GNU GENERAL PUBLIC LICENSE

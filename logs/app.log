@@ -1,0 +1,14 @@
+visions.backends - 2025-10-06 20:19:39 - __init__.py - 14 - INFO - Pandas backend loaded 2.3.3
+visions.backends - 2025-10-06 20:19:39 - __init__.py - 25 - INFO - Numpy backend loaded 2.1.3
+visions.backends - 2025-10-06 20:19:39 - __init__.py - 37 - INFO - Pyspark backend NOT loaded
+visions.backends - 2025-10-06 20:19:39 - __init__.py - 43 - INFO - Python backend loaded
+__main__ - 2025-10-06 20:19:39 - app.py - 37 - INFO - Anwendung Data Cleaner gestartet: 2.4
+root - 2025-10-06 20:19:41 - datacleaner.py - 25 - INFO - Daten wurden aus ../data/input/my_data.csv geladen
+root - 2025-10-06 20:19:41 - datacleaner.py - 77 - INFO - Entfernte leere Zeilen: 545
+root - 2025-10-06 20:19:43 - datacleaner.py - 96 - INFO - Entfernte doppelte vollständige Zeilen: 1164, Anzahl Duplikate: 0
+root - 2025-10-06 20:19:44 - datacleaner.py - 133 - INFO - Orderd ID erfolgreich umgewandelt in: int64
+root - 2025-10-06 20:19:44 - datacleaner.py - 149 - INFO - Alle Preise erfolgreich umgewandelt in: <class 'decimal.Decimal'>.
+root - 2025-10-06 20:19:44 - datacleaner.py - 164 - INFO - Daten gespeichert unter ../data/output/my_data_cleaned.csv
+root - 2025-10-06 20:20:54 - report.py - 69 - INFO - Daten Profil der bereinigten Daten erstellt.
+root - 2025-10-06 20:21:01 - report.py - 109 - INFO - Daten Report SV der bereinigten Daten erstellt.
+__main__ - 2025-10-06 20:21:01 - app.py - 39 - INFO - Anwendung Data Cleaner beendet: 2.4
