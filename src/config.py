@@ -13,10 +13,17 @@ logging_pfad = Path("../data") / "config" / "logging.ini"
 
 logging.config.fileConfig(logging_pfad)
 
+try:
+    file = open(config_path, mode = "r", encoding= "UTF-8")
+    config = json.load(file)
 
-file = open(config_path, mode = "r", encoding= "UTF-8")
-config = json.load(file)
-file.close()
+except FileNotFoundError as fnf_error:
+    logging.error(f"config Datei nicht gefunden: {fnf_error}")
+except IOError as e:
+    logging.error(f"Ein I/O Fehler ist aufgetreten: {e}")
+else:
+    file.close()
+
 
 drop_na: bool = config["cleaning"]["drop_na"]
 drop_duplicate: bool = config["cleaning"]["drop_duplicate"]
